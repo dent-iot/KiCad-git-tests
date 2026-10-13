@@ -709,7 +709,7 @@
 	)
 	(rectangle
 		(start 78.74 20.32)
-		(end 109.22 66.04)
+		(end 109.22 85.344)
 		(stroke
 			(width 0)
 			(type default)
@@ -731,9 +731,111 @@
 		)
 		(uuid "0647a7f4-5acc-4592-8fdd-76dfedea9317")
 	)
+	(wire
+		(pts
+			(xy 93.98 53.34) (xy 93.98 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a387a47a-03c9-4e78-92c0-8b96be18c102")
+	)
+	(wire
+		(pts
+			(xy 93.98 43.18) (xy 93.98 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad760683-6f0d-4f78-9a5f-c2c5a59aaf94")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 93.98 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "072ed41d-bb24-47ab-9331-ebfb10d6b0af")
+		(property "Reference" "R2"
+			(at 96.52 48.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 96.52 50.7999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0612_1632Metric"
+			(at 92.202 49.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 93.98 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5a6a18ad-e814-47e4-8d06-b19acfe70dff")
+		)
+		(pin "2"
+			(uuid "32913218-4d10-4fe7-ad67-e52d0af64510")
+		)
+		(instances
+			(project "KiCad-git-tests"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:LED_Dual_Bidirectional")
-		(at 93.98 50.8 90)
+		(at 93.98 64.77 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -744,7 +846,7 @@
 		(fields_autoplaced yes)
 		(uuid "3c546a10-00bf-432a-98bf-95fb1271a77e")
 		(property "Reference" "D1"
-			(at 100.33 49.0346 90)
+			(at 100.33 63.0046 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -755,7 +857,7 @@
 			)
 		)
 		(property "Value" "LED_Dual_Bidirectional"
-			(at 100.33 51.5746 90)
+			(at 100.33 65.5446 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -767,7 +869,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
-			(at 93.98 50.8 0)
+			(at 93.98 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -778,7 +880,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 50.8 0)
+			(at 93.98 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -789,7 +891,7 @@
 			)
 		)
 		(property "Description" "Dual LED, bidirectional"
-			(at 93.98 50.8 0)
+			(at 93.98 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -894,7 +996,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 93.98 58.42 0)
+		(at 93.98 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -904,7 +1006,7 @@
 		(dnp no)
 		(uuid "db4a67cb-1d51-480a-8d81-5096fc9dd49e")
 		(property "Reference" "#PWR02"
-			(at 93.98 64.77 0)
+			(at 93.98 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -915,7 +1017,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 63.246 0)
+			(at 95.25 77.216 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -925,7 +1027,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 58.42 0)
+			(at 93.98 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -936,7 +1038,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 58.42 0)
+			(at 93.98 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -947,7 +1049,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 58.42 0)
+			(at 93.98 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
