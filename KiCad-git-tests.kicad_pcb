@@ -131,8 +131,166 @@
 	)
 	(footprint "Resistor_SMD:R_0612_1632Metric"
 		(layer "F.Cu")
+		(uuid "57c748e5-6296-4bb3-8a16-8d81a59b7249")
+		(at 67.742 40.31 180)
+		(descr "Resistor SMD 0612 (1632 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20019/rcwe.pdf)")
+		(tags "resistor")
+		(property "Reference" "R2"
+			(at 0 -2.65 0)
+			(layer "F.SilkS")
+			(uuid "33dc5131-e45c-4147-8079-4487f88bdf1d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 0 2.65 0)
+			(layer "F.Fab")
+			(uuid "5a141337-cc68-4213-9a36-02bd4d672c8c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "220e2842-f538-4f0c-a283-a976b0ea9321")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe73d968-3469-40b2-b26e-c14e7104fd10")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e291ebb3-cc11-40cf-b05c-15b9d5bc1042")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/072ed41d-bb24-47ab-9331-ebfb10d6b0af")
+		(sheetname "/")
+		(sheetfile "KiCad-git-tests.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.182983 1.71)
+			(end 0.182983 1.71)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a090f4db-dcb1-4b9f-b097-97ece848dd67")
+		)
+		(fp_line
+			(start -0.182983 -1.71)
+			(end 0.182983 -1.71)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "445a5344-4874-48f5-8372-60a4ef9d8052")
+		)
+		(fp_rect
+			(start -1.5 -1.95)
+			(end 1.5 1.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "fc61b794-6878-48ba-b45f-831e01cb1316")
+		)
+		(fp_rect
+			(start -0.8 -1.6)
+			(end 0.8 1.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "cbf88047-bc70-41c0-99b9-522e38fb0ac2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "a8842f7b-cf40-4410-933a-95523b5c766f")
+			(effects
+				(font
+					(size 0.4 0.4)
+					(thickness 0.06)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.75 0 180)
+			(size 1 3.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "Net-(R1-Pad2)")
+			(pintype "passive")
+			(uuid "fd475f9d-af9e-401e-907c-e5a0d8d49a0d")
+		)
+		(pad "2" smd roundrect
+			(at 0.75 0 180)
+			(size 1 3.4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "Net-(D1-KA)")
+			(pintype "passive")
+			(uuid "cb1a7ce7-dd1f-45f8-92ba-4276cbead33b")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0612_1632Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Resistor_SMD:R_0612_1632Metric"
+		(layer "F.Cu")
 		(uuid "5ea29f27-49a7-4dca-b636-9889738aae40")
-		(at 73 40.75 180)
+		(at 75.12 40.31 180)
 		(descr "Resistor SMD 0612 (1632 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20019/rcwe.pdf)")
 		(tags "resistor")
 		(property "Reference" "R1"
@@ -270,7 +428,7 @@
 			(size 1 3.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(D1-KA)")
+			(net "Net-(R1-Pad2)")
 			(pintype "passive")
 			(uuid "cf8bea3b-a341-4215-ad56-f6224eed96f3")
 		)
@@ -290,13 +448,13 @@
 	(footprint "LED_SMD:LED_1812_4532Metric_Pad1.30x3.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "bdb52e06-bb14-43ef-acbf-6b81ff546ecb")
-		(at 62.275 40.25 180)
+		(at 59.614 40.31 180)
 		(descr "LED SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf)")
 		(tags "LED handsolder")
 		(property "Reference" "D1"
 			(at 0 -2.65 0)
 			(layer "F.SilkS")
-			(uuid "14c9cac5-63bc-4e6e-a8c6-2a525c5b3c3a")
+			(uuid "df3d7ad6-0330-4b70-9f20-9707abaf1ca1")
 			(effects
 				(font
 					(size 1 1)
@@ -307,7 +465,7 @@
 		(property "Value" "LED_Dual_Bidirectional"
 			(at 0 2.65 0)
 			(layer "F.Fab")
-			(uuid "73e0ff67-6f48-4669-bcf4-3cc06de35f10")
+			(uuid "c74031cb-7130-48dc-9e14-596e6f3a1eff")
 			(effects
 				(font
 					(size 1 1)
@@ -319,7 +477,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fa2bdb3c-7d80-4a5e-8e92-b536a43ab23e")
+			(uuid "7e34d60c-4f10-48f3-b744-45b0584fde70")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -330,7 +488,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a3d70ece-dcc1-44f6-b2af-460a0e173bf9")
+			(uuid "4eaaca79-0a3d-4a66-ba6e-5ec99b2d6162")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -508,20 +666,20 @@
 		(uuid "6fdafd27-8937-4f42-a639-08730b1b9d8b")
 	)
 	(segment
-		(start 64.5 40.25)
-		(end 71.75 40.25)
-		(width 0.25)
+		(start 66.992 40.31)
+		(end 61.839 40.31)
+		(width 0.4)
 		(layer "F.Cu")
 		(net "Net-(D1-KA)")
-		(uuid "d196e5e1-598d-468a-8348-eb4d21f9c44e")
+		(uuid "c7f9cd3e-1ca4-46a2-817e-e1f3325c2116")
 	)
 	(segment
-		(start 71.75 40.25)
-		(end 72.25 40.75)
-		(width 0.25)
+		(start 74.37 40.31)
+		(end 68.492 40.31)
+		(width 0.4)
 		(layer "F.Cu")
-		(net "Net-(D1-KA)")
-		(uuid "d66514ef-9ba6-49cc-a6d3-91d6f03d5ee9")
+		(net "Net-(R1-Pad2)")
+		(uuid "549452fa-7e98-4724-970e-7a7d82e56631")
 	)
 	(embedded_fonts no)
 )
